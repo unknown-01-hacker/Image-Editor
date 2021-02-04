@@ -1,5 +1,5 @@
 # @TroJanzHEX (Best Kanger) 😐🙄😒
-# (c) @AbirHasan2005
+# (c) @Technical-Jigar | @abirHasan2005
 
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from pyrogram import Client, filters
@@ -17,7 +17,7 @@ async def start(client: Client, message: Message):
             user = await client.get_chat_member(update_channel, message.chat.id)
             if user.status == "kicked":
                await message.reply_text(
-                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/linux_repo).",
+                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/UniversalBotsSupport).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
                )
@@ -37,7 +37,7 @@ async def start(client: Client, message: Message):
             return
         except Exception:
             await message.reply_text(
-                text="Something went Wrong. Contact my [Support Group](https://t.me/linux_repo).",
+                text="Something went Wrong. Contact my [Support Group](https://t.me/UniversalBotsSupport).",
                 parse_mode="markdown",
                 disable_web_page_preview=True
             )
@@ -55,8 +55,8 @@ async def start(client: Client, message: Message):
                     ],
                     [
                         InlineKeyboardButton(
-                            "SOURCE CODE",
-                            url="https://github.com/TroJanzHEX/Image-Editor",
+                            "Devloper",
+                            url="https://t.me/UniversalBotsUpdate",
                         )
                     ],
                 ]
@@ -76,7 +76,7 @@ async def help(client, message):
             user = await client.get_chat_member(update_channel, message.chat.id)
             if user.status == "kicked":
                await message.reply_text(
-                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/linux_repo).",
+                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/UniversalBotsSupport).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
                )
@@ -96,7 +96,7 @@ async def help(client, message):
             return
         except Exception:
             await message.reply_text(
-                text="Something went Wrong. Contact my [Support Group](https://t.me/linux_repo).",
+                text="Something went Wrong. Contact my [Support Group](https://t.me/UniversalBotsSupport).",
                 parse_mode="markdown",
                 disable_web_page_preview=True
             )
@@ -114,8 +114,8 @@ async def help(client, message):
                     ],
                     [
                         InlineKeyboardButton(
-                            "SOURCE CODE",
-                            url="https://github.com/TroJanzHEX/Image-Editor",
+                            "Devloper",
+                            url="https://t.me/UniversalBotsUpdate",
                         )
                     ],
                 ]
@@ -135,7 +135,7 @@ async def about(client, message):
             user = await client.get_chat_member(update_channel, message.chat.id)
             if user.status == "kicked":
                await message.reply_text(
-                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/linux_repo).",
+                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/UniversalBotsSupport).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
                )
@@ -155,7 +155,7 @@ async def about(client, message):
             return
         except Exception:
             await message.reply_text(
-                text="Something went Wrong. Contact my [Support Group](https://t.me/linux_repo).",
+                text="Something went Wrong. Contact my [Support Group](https://t.me/UniversalBotsSupport).",
                 parse_mode="markdown",
                 disable_web_page_preview=True
             )
@@ -173,8 +173,8 @@ async def about(client, message):
                     ],
                     [
                         InlineKeyboardButton(
-                            "SOURCE CODE",
-                            url="https://github.com/TroJanzHEX/Image-Editor",
+                            "Devloper",
+                            url="https://t.me/UniversalBotsUpdate",
                         )
                     ],
                 ]
