@@ -6,7 +6,7 @@ from pyrogram import Client, filters
 from script import script  # pylint:disable=import-error
 from pyrogram.errors.exceptions.bad_request_400 import UserNotParticipant, UsernameNotOccupied, ChatAdminRequired, PeerIdInvalid
 
-UPDATES_CHANNEL = -1001417953950
+UPDATES_CHANNEL = d_J_alok_giveaway
 
 @Client.on_message(filters.command(["start"]) & filters.private)
 async def start(client: Client, message: Message):
